@@ -1,0 +1,22 @@
+{
+  "name": "dhtc",
+  "version": "1.0.0",
+  "description": "A BitTorrent DHT crawler.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node examples/crawler.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisburland/dhtc.git"
+  },
+  "author": "Christian Burland Mankowski <chrisaburland@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisburland/dhtc/issues"
+  },
+  "homepage": "https://github.com/chrisburland/dhtc#readme",
+  "dependencies": {
+    "bencode": "^0.11.0"
+  }
+}

@@ -1,2 +1,1 @@
-# dhtc
-A BitTorrent DHT crawler.
+# Distributed Hash Table Crawler
