@@ -6,6 +6,8 @@ A [BitTorrent](http://www.bittorrent.org/) DHT crawler for [Node.js](https://nod
 
 ## Installation
 
+**Requires:** [Node.js](https://nodejs.org) 4.8.2 or greater.
+
 ``` bash
 $ npm install dhtc
 ```
