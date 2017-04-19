@@ -18,6 +18,8 @@ $ npm install dhtc
 
 ## Usage
 
+**Note:** it make take several minuets for the crawler to find any infohashes.
+
 ``` js
 const DHTC = require('dhtc')
 
