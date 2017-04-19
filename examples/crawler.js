@@ -5,9 +5,7 @@ const crawler = new DHTC({
   port: 6881
 })
 
-crawler.start(() => {
-  console.log(`DHT crawler listening on 0.0.0.0:6881`)
-})
+crawler.start()
 
 crawler.on('infoHash', (hash, address, port) => {
   console.log(`${hash} from ${address}:${port}`)
