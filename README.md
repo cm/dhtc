@@ -7,14 +7,14 @@ A [BitTorrent](http://www.bittorrent.org/) DHT crawler for [Node.js](https://nod
 ## Installation
 
 ``` bash
-$ npm install express
+$ npm install dhtc
 ```
 
 ## Features
 
   * Simple API.
   * Node.js event emmiter based interface.
-  * Discover peers on the DHT network.
+  * Discover infohashes on the DHT network.
 
 ## Usage
 
