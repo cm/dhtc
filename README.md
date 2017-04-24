@@ -2,7 +2,7 @@ A [BitTorrent](http://www.bittorrent.org/) DHT crawler for [Node.js](https://nod
 
 [![npm version](https://badge.fury.io/js/dhtc.svg)](https://badge.fury.io/js/dhtc)
 [![Dependencies](https://david-dm.org/chrisburland/dhtc.svg)](https://david-dm.org/chrisburland/dhtc)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Code Climate](https://codeclimate.com/github/chrisburland/dhtc/badges/gpa.svg)](https://codeclimate.com/github/chirsburland/dhtc)
 
 ## Installation
 
