@@ -23,9 +23,9 @@ $ npm install dhtc
 **Note:** it make take several minuets for the crawler to find any infohashes.
 
 ``` js
-const DHTC = require('dhtc')
+const Crawler = require('dhtc')
 
-const crawler = new DHTC({
+const crawler = new Crawler({
   address: '0.0.0.0', 
   port: 6881
 })
