@@ -9,7 +9,7 @@ const BOOTSTRAP_NODES = [
 ]
 
 const TID_LENGTH = 4
-const NODES_MAX_SIZE = 10000
+const NODES_MAX_SIZE = 200
 const TOKEN_LENGTH = 2
 
 function randomID () {
@@ -197,7 +197,7 @@ class DHTCrawler extends events.EventEmitter {
     setInterval(() => {
       this.joinDHTNetwork()
       this.makeNeighbours()
-    }, 1000)()
+    }, 1000)
   }
 }
 
