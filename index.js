@@ -5,8 +5,7 @@ const events = require('events')
 
 const BOOTSTRAP_NODES = [
   ['router.bittorrent.com', 6881],
-  ['dht.transmissionbt.com', 6881],
-  ['router.utorrent.com', 6881]
+  ['dht.transmissionbt.com', 6881]
 ]
 
 const TID_LENGTH = 4
@@ -48,7 +47,7 @@ class KTable {
   }
 }
 
-class DHTC extends events.EventEmitter {
+class DHTCrawler extends events.EventEmitter {
   constructor (options) {
     super()
     this.address = options.address || '0.0.0.0'
@@ -191,15 +190,15 @@ class DHTC extends events.EventEmitter {
       this.onMessage(msg, rinfo)
     })
 
-    this.udp.on('error', (err) => {
+    this.udp.on('error', err => {
       this.emit('error', err)
     })
 
     setInterval(() => {
       this.joinDHTNetwork()
       this.makeNeighbours()
-    }, 1000)
+    }, 1000)()
   }
 }
 
-module.exports = DHTC
+module.exports = DHTCrawler
